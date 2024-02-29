@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     setisLoading(true);
-    fetch("http://localhost:3000/all-jobs")
+    fetch("https://job-platform-ffzr.onrender.com/all-jobs")
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);

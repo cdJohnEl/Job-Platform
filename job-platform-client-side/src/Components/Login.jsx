@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/login", { email, password, name })
+      .post("https://job-platform-ffzr.onrender.com/login", { email, password, name })
       .then((res) => {
         const userName = res.data.user.name;
         console.log(userName); // Logging the username

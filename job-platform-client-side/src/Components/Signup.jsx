@@ -11,7 +11,7 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/sign-up", { name, email, password })
+      .post("https://job-platform-ffzr.onrender.com/sign-up", { name, email, password })
       .then((res) => {
         console.log(res);
         navigate("/login");

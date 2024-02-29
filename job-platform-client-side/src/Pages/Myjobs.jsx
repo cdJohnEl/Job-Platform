@@ -12,7 +12,7 @@ const Myjobs = () => {
 
   React.useEffect(() => {
     setIsLoading(true);
-    fetch(`http://localhost:3000/myJobs/name@mail.com`)
+    fetch(`https://job-platform-ffzr.onrender.com/myJobs/name@mail.com`)
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
@@ -50,7 +50,7 @@ const Myjobs = () => {
   };
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:3000/job/${id}`, {
+    fetch(`https://job-platform-ffzr.onrender.com/job/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json)

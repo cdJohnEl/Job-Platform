@@ -13,7 +13,7 @@ const CreateJob = () => {
   const onSubmit = (data) => {
     data.skills = selectedOption;
     // console.log(data);
-  fetch("http://localhost:3000/post-job", {
+  fetch("https://job-platform-ffzr.onrender.com/post-job", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
