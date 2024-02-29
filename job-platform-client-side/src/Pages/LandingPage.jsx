@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaXTwitter, FaLinkedin, FaGlobe } from "react-icons/fa6";
 import HeroImage from "../assets/job-portal-hero.png";
 import John from "../assets/profile-pic11--.png";
 import Tata from "../assets/tata-divine-pp.jpg";
@@ -261,10 +261,10 @@ const LandingPage = () => {
 
           <div class="flex flex-col items-center justify-center mt-24 md:flex-row md:space-x-6">
             {/* <!-- Team  member 1 --> */}
-            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
+            <div class="flex flex-col items-center p-6 space-y-6 rounded-lg mb-0 bg-veryLightGray md:w-1/3">
               <img src={John} class="w-50 -mt-14" alt="" />
-              <h5 class="text-lg font-bold mb-0">John Chimdike</h5>
-              <p class="text-sm text-darkGrayishBlue mt-0">Frontend</p>
+              <h5 class="text-4xl font-bold ">John Chimdike</h5>
+              <p class="text-sm text-darkGrayishBlue mt-0">Web Developer</p>
               <div class="flex justify-center space-x-4">
                 {/* <!-- Link 1 --> */}
                 <a href="https://github.com/cdJohnEl" target="_blank">
@@ -279,7 +279,11 @@ const LandingPage = () => {
                 </a>
                 {/* <!-- Link 3 --> */}
                 <a href="https://twitter.com/cdJohnEl" target="_blank">
-                  <FaTwitter size={30} />
+                  <FaXTwitter size={30} />
+                </a>
+                {/* <!-- Link 4 --> */}
+                <a href="https://portfolio-212k.onrender.com/" target="_blank">
+                  <FaGlobe size={30} />
                 </a>
               </div>
             </div>
@@ -328,7 +332,7 @@ const LandingPage = () => {
             <span class="ml-3 text-xl">Job Portal</span>
           </a>
           <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2024 Job Portal
+            © 2024 Job Portal - John Chimdike
           </p>
         </div>
       </footer>
