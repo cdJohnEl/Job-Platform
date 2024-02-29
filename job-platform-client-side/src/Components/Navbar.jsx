@@ -14,7 +14,7 @@ const Navbar = ({storedUserName}) => {
 
 
   const navItems = [
-    { path: "/", title: "Home" },
+    { path: "/home", title: "Home" },
     { path: "/my-job", title: "My Jobs" },
     // {path: '/', title: 'Salary Estimate'},
     { path: "/post-job", title: "Upload Jobs" },

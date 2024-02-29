@@ -23,7 +23,7 @@ const Login = () => {
         console.log(userName); // Logging the username
         handleLoginSuccess(userName); // Calling the function to display alert
         if (res.status === 200) {
-          navigate("/");
+          navigate("/home");
         }
       })
       .catch((err) => {
