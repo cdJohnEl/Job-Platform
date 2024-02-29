@@ -1,9 +1,9 @@
 import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa6";
-import HeroImage from "../assets/job-portal-hero.png"
-import John from "../assets/profile-pic11--.png"
-import Tata from "../assets/tata-divine-pp.jpg"
-import JobVideo from "../assets/job-platform-video_.mp4"
+import HeroImage from "../assets/job-portal-hero.png";
+import John from "../assets/profile-pic11--.png";
+import Tata from "../assets/tata-divine-pp.jpg";
+import JobVideo from "../assets/job-platform-video_.mp4";
 
 const LandingPage = () => {
   return (
@@ -118,11 +118,17 @@ const LandingPage = () => {
               Features
             </h2>
             <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
-              Job Portal provides all the functionality your team needs, without the
-              complexity. Our software is tailor-made for modern digital product
-              teams.
+              Job Portal provides all the functionality your team needs, without
+              the complexity. Our software is tailor-made for modern digital
+              product teams.
             </p>
-            <video src={JobVideo} class="w-full max-w-4xl rounded-lg pr-8" controls> </video>
+            <video
+              src={JobVideo}
+              class="w-full max-w-4xl rounded-lg pr-8"
+              controls
+            >
+              {" "}
+            </video>
           </div>
 
           {/* <!-- Numbered List --> */}
@@ -237,17 +243,17 @@ const LandingPage = () => {
           {/* <!-- Heading --> */}
           <h2 class="text-4xl font-bold text-center">About the project</h2>
           <p class="w-full mx-auto mt-6 text-darkGrayishBlue mb-8">
-            We started this project with a simple goal: to build something cool
-            for our portfolio. After chatting and brainstorming, we settled on
-            creating a job platform. You see, we realized that finding a job can
-            be really tough sometimes. So, we wanted to make it easier. We
+            I started this project with a simple goal: to build something cool
+            for my portfolio. After researching and brainstorming, I settled on
+            creating a job platform. You see, I realized that finding a job can
+            be really tough sometimes. So, I wanted to make it easier. I
             wanted to create a place where people could find jobs without all
-            the stress. We worked hard on this project, putting our hearts into
-            every part of it. Even though we faced some challenges along the
-            way, we didn't give up. We kept pushing forward because we really
-            believed in what we were doing. And now, after months of work, we're
-            excited to share our project with you. It's not just a portfolio
-            piece anymore – it's something we're really proud of.
+            the stress. I worked hard on this project, putting my heart into
+            every part of it. Even though I faced some challenges along the
+            way, I didn't give up. I kept pushing forward because I really
+            believed in what I was doing. And now, after months of work, I'm
+            excited to share my project with you. It's not just a portfolio
+            piece anymore – it's something I'm really proud of.
           </p>
           <hr />
 
@@ -273,26 +279,6 @@ const LandingPage = () => {
                 </a>
                 {/* <!-- Link 3 --> */}
                 <a href="https://twitter.com/cdJohnEl" target="_blank">
-                  <FaTwitter size={30} />
-                </a>
-              </div>
-            </div>
-            {/* <!-- Team member 2 --> */}
-            <div class="flex flex-col items-center mt-8 p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
-              <img src={Tata} class="w-60 -mt-14" alt="" />
-              <h5 class="text-lg font-bold mb-0">Tata Divine</h5>
-              <p class="text-sm text-darkGrayishBlue mt-0">Backend</p>
-              <div class="flex justify-center space-x-4">
-                {/* <!-- Link 1 --> */}
-                <a href="https://github.com/magnifiscence">
-                  <FaGithub size={30} />
-                </a>
-                {/* <!-- Link 2 --> */}
-                <a href="https://www.linkedin.com/in/tata-divine-a5aa16259">
-                  <FaLinkedin size={30} />
-                </a>
-                {/* <!-- Link 3 --> */}
-                <a href="https://twitter.com/TATADIVINE3">
                   <FaTwitter size={30} />
                 </a>
               </div>
